@@ -115,7 +115,7 @@ class CIFData(Dataset):
         self.pos = pos
         self.radius = radius
         self.crystal_data = crystal_data
-        atom_init_file = os.path.join('./PACMAN-charge/model4pre/' + 'atom_init.json')
+        atom_init_file = os.path.join('./PACMAN/model4pre/' + 'atom_init.json')
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)
     def __len__(self):
