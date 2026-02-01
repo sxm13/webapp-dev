@@ -9,7 +9,16 @@ from stmol import *
 import streamlit as st
 from io import StringIO
 from ase.io import read, write
-from predict import predict_with_model
+
+
+import sys
+from pathlib import Path
+
+APP_DIR = Path(__file__).resolve().parent
+if str(APP_DIR) not in sys.path:
+    sys.path.insert(0, str(APP_DIR))
+
+from PACMAN.predict import predict_with_model
 
 st.markdown("""
     <style>
