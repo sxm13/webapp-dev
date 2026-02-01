@@ -1,3 +1,9 @@
+from __future__ import print_function, division
+import os
+import json
+import functools
+from torch.utils.data import Dataset,DataLoader
+
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -176,14 +182,6 @@ class SemiFullGN(nn.Module):
         charge = self.conv(charge).squeeze()
         return charge
 
-
-from __future__ import print_function, division
-import os
-import json
-import functools
-import torch
-import numpy as np
-from torch.utils.data import Dataset,DataLoader
 
 def get_data_loader(dataset,collate_fn,batch_size=64,num_workers=0,pin_memory=False):
     data_loader = DataLoader(dataset,batch_size=batch_size,shuffle=True,num_workers=num_workers,collate_fn=collate_fn,pin_memory=pin_memory)
