@@ -13,17 +13,17 @@ def predict_with_model(charge_name, file, name, digits, atom_type_option, neutra
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if charge_name=="DDEC6":
-        charge_model_name = "./pth/best_ddec/ddec.pth"
-        nor_name = "./pth/best_ddec/normalizer-ddec.pkl"
+        charge_model_name = "./PACMAN-charge/pth/best_ddec/ddec.pth"
+        nor_name = "./PACMAN-charge/pth/best_ddec/normalizer-ddec.pkl"
     elif charge_name=="Bader":
-        charge_model_name = "./pth/best_bader/bader.pth"
-        nor_name = "./pth/best_bader/normalizer-bader.pkl"
+        charge_model_name = "./PACMAN-charge/pth/best_bader/bader.pth"
+        nor_name = ".PACMAN-charge//pth/best_bader/normalizer-bader.pkl"
     elif charge_name=="CM5":
-        charge_model_name = "./pth/best_cm5/cm5.pth"
-        nor_name = "./pth/best_cm5/normalizer-cm5.pkl"
+        charge_model_name = "./PACMAN-charge/pth/best_cm5/cm5.pth"
+        nor_name = "./PACMAN-charge/pth/best_cm5/normalizer-cm5.pkl"
     elif charge_name=="REPEAT":
-        charge_model_name = "./pth/best_repeat/repeat.pth"
-        nor_name = "./pth/best_repeat/normalizer-repeat.pkl"
+        charge_model_name = "./PACMAN-charge/pth/best_repeat/repeat.pth"
+        nor_name = "./PACMAN-charge/pth/best_repeat/normalizer-repeat.pkl"
     with open(nor_name, 'rb') as f:
         charge_nor = pickle.load(f)
     f.close()
