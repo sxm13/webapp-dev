@@ -25,7 +25,7 @@ import shutil
 
 import importlib
 import sys
-source = importlib.import_module('')
+source = importlib.import_module('./')
 sys.modules['model.utils'] = source
 sys.modules['model'] = source
 sys.modules['model4pre'] = source
