@@ -9,7 +9,7 @@ from stmol import *
 import streamlit as st
 from io import StringIO
 from ase.io import read, write
-from PACMAN.predict import predict_with_model
+from PACMAN-charge.predict import predict_with_model
 
 st.markdown("""
     <style>
