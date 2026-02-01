@@ -1,0 +1,27 @@
+streamlit
+pandas
+py3Dmol
+stmol
+ipython_genutils
+numpy
+pymatgen
+ase
+tqdm
+openpyxl
+plotly
+scikit-learn
+umap-learn
+streamlit_tags
+streamlit-extras
+mofchecker
+streamlit_timeline
+pillow
+xgboost
+molSimplify
+matminer
+schedule
+PACMAN-charge
+gspread
+oauth2client
+
+conda install -c conda-forge zeopp-lsmo
