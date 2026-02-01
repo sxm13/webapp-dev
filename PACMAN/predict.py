@@ -23,6 +23,16 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 import shutil
 
+import importlib
+import sys
+source = importlib.import_module('PACMAN')
+sys.modules['model.utils'] = source
+sys.modules['model'] = source
+sys.modules['model4pre'] = source
+sys.modules['source'] = source
+sys.modules['source.utils'] = source
+
+
 class Normalizer(object):
 	def __init__(self, tensor):
 		self.mean = torch.mean(tensor)
