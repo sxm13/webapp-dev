@@ -39,11 +39,11 @@ creds = ServiceAccountCredentials.from_json_keyfile_name(
 )
 gc = gspread.authorize(creds)
 
-SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1lLXF6wL4geJhYI6I9KiVbKazOOm3SdQCYi7l59vvEMg/edit"
+SPREADSHEET_URL = ""
 sheet = gc.open_by_url(SPREADSHEET_URL).sheet1
 
 
-slack_webhook_url = "https://hooks.slack.com/services/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"
+slack_webhook_url = ""
 
 name = st.text_area("Name", "David Jones and Mary Johnson", height=68, key="name_issue")
 email = st.text_area("Email", "abc123@gmail.com", height=68, key="email_issue")
