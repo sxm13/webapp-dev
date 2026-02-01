@@ -54,11 +54,11 @@ def predict(smiles, ip=None, homo_gap=None):
                 f = calculate_descriptors(smiles, fea)
             gwp_x.append(f)
         
-        scaler = joblib.load("./webapp/scaler_MLP_LF.gz")
+        scaler = joblib.load("./GWP/scaler_MLP_LF.gz")
         lf_x = scaler.transform(np.array(lf_x).reshape(1, -1))
         
-        model_lf = joblib.load('./webapp/mlp_LF.pkl')
-        model_gwp = joblib.load('./webapp/rf_GWP.pkl')
+        model_lf = joblib.load('./GWP/mlp_LF.pkl')
+        model_gwp = joblib.load('./GWP/rf_GWP.pkl')
     
         lifetime = 10 ** model_lf.predict(lf_x)
         gwp = 10 ** model_gwp.predict(np.array(gwp_x).reshape(1, -1))
@@ -75,11 +75,11 @@ def predict(smiles, ip=None, homo_gap=None):
             f = calculate_descriptors(smiles, fea)
             gwp_x.append(f)
     
-        scaler = joblib.load("./webapp/scaler_MLP_LF_geo.gz")
+        scaler = joblib.load("./GWP/scaler_MLP_LF_geo.gz")
         lf_x = scaler.transform(np.array(lf_x).reshape(1, -1))
         
-        model_lf = joblib.load('./webapp/mlp_LF_geo.pkl')
-        model_gwp = joblib.load('./webapp/rf_GWP_geo.pkl')
+        model_lf = joblib.load('./GWP/mlp_LF_geo.pkl')
+        model_gwp = joblib.load('./GWP/rf_GWP_geo.pkl')
     
         lifetime = 10 ** model_lf.predict(lf_x)
         gwp = 10 ** model_gwp.predict(np.array(gwp_x).reshape(1, -1))
