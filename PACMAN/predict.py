@@ -1,9 +1,9 @@
 import torch
 import pickle
-from model4pre.GCN_E import GCN
-from model4pre.GCN_charge import SemiFullGN
-from model4pre.data import collate_pool, get_data_loader, CIFData
-from model4pre.cif2data import ase_format, CIF2json, pre4pre, write4cif
+from PACMAN.model4pre.GCN_E import GCN
+from PACMAN.model4pre.GCN_charge import SemiFullGN
+from PACMAN.model4pre.data import collate_pool, get_data_loader, CIFData
+from PACMAN.model4pre.cif2data import ase_format, CIF2json, pre4pre, write4cif
 
 def predict_with_model(charge_name, file, name, digits, atom_type_option, neutral_option, connect_option):
 
