@@ -71,6 +71,6 @@ If you use this database or the provided structures in your research, please cit
 
 ## ✉️ Contact & Feedback
 
-* **Laboratory:** Chung Reasearch Group, Pusan National University.
+* **Laboratory:** Chung Research Group, Pusan National University.
 * **Support:** Issues can be reported via the [Contact Page](https://mof-db.pusan.ac.kr/contact) or emailed to `sxmzhaogb@gmail.com`.
 
