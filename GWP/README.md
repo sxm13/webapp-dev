@@ -29,4 +29,3 @@ If this tool facilitates your research, please cite the relevant publications:
 ## ✉️ Contact
 
 * **Lab:** Chung Research Group, Pusan National University.
-* **Platform:** Developed using **Streamlit** for the scientific community.
