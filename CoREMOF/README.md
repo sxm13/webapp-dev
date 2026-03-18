@@ -71,8 +71,8 @@ If you use this database or the provided structures in your research, please cit
 
 ## ✉️ Contact & Feedback
 
-* **Laboratory:** Graduate School of Data Science, Pusan National University.
-* **Support:** Issues can be reported via the [Contact Page](https://mof-db.pusan.ac.kr/contact) or emailed to `drygchung@gmail.com`.
+* **Laboratory:** Chung Reasearch Group, Pusan National University.
+* **Support:** Issues can be reported via the [Contact Page](https://mof-db.pusan.ac.kr/contact) or emailed to `sxmzhaogb@gmail.com`.
 
 ---
 <p align="center"><i>Developed with passion for the porous materials community.</i></p>
