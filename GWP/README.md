@@ -1,4 +1,4 @@
-# GWP-web: Generative Workflow for Porous materials
+# GWP-web: Global Warming Potential and Atmospheric Lifetime Prediction
 
 <div align="center">
 
