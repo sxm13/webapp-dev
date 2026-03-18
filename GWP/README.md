@@ -22,7 +22,7 @@
 
 If this tool facilitates your research, please cite the relevant publications:
 
-> G. Zhao, H. Kim, C. Ynag, Y. G. Chung. Leveraging Machine Learning to Predict the Atmospheric Lifetime and the Global Warming Potential (GWP) of SF6 Replacement Gases. DOI: 10.1021/acs.jpca.3c07339*
+> G. Zhao, H. Kim, C. Ynag, Y. G. Chung. Leveraging Machine Learning to Predict the Atmospheric Lifetime and the Global Warming Potential (GWP) of SF6 Replacement Gases. DOI: 10.1021/acs.jpca.3c07339
 
 ---
 
