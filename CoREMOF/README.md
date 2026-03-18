@@ -26,7 +26,7 @@ As of the **2025 update**, the platform hosts over **43,000+** MOF structures, m
 
 ### 1. Advanced Structural Curation
 * **Solvent Removal:** Provides both **ASR** (All Solvent Removed) and **FSR** (Free Solvent Removed) versions.
-* **NCR Diagnostics:** Integrated **MOSAEC** and **MOFChecker** tools to identify "Not Computation-Ready" structures (e.g., overlapping atoms or missing coordinates).
+* **NCR Diagnostics:** Integrated **Chen-Manz** and **MOFChecker** tools to identify "Not Computation-Ready" structures (e.g., overlapping atoms or missing coordinates).
 * **Charge Assignment:** Pre-calculated **DDEC06** partial atomic charges using ML models for rapid electrostatic potential modeling.
 
 ### 2. Multi-dimensional Search & Discovery
@@ -74,5 +74,3 @@ If you use this database or the provided structures in your research, please cit
 * **Laboratory:** Chung Reasearch Group, Pusan National University.
 * **Support:** Issues can be reported via the [Contact Page](https://mof-db.pusan.ac.kr/contact) or emailed to `sxmzhaogb@gmail.com`.
 
----
-<p align="center"><i>Developed with passion for the porous materials community.</i></p>
