@@ -5,7 +5,6 @@
 
   <h3>Computation-Ready, Experimental Metal-Organic Framework Database</h3>
 
-  [![Online Website](https://img.shields.io/badge/Maintained%20by-Pusan%20National%20University-blue)](https://mof-db.pusan.ac.kr)
   [![Database Version](https://img.shields.io/badge/Database-CoRE%20MOF%202024%2F2025-green)](https://mof-db.pusan.ac.kr)
   [![Platform](https://img.shields.io/badge/Platform-Web--based-orange)](https://mof-db.pusan.ac.kr)
 
@@ -64,13 +63,12 @@ As of the **2025 update**, the platform hosts over **43,000+** MOF structures, m
 If you use this database or the provided structures in your research, please cite:
 
 **Current Version (2024/2025):**
-> *Zhao, G., et al. "CoRE MOF DB: A curated experimental metal-organic framework database with machine-learned properties for integrated material-process screening." **Matter**, 2025. DOI: 10.1016/j.matt.2025.102140*                        
-> *Zhao, G., et al. "MOFClassifier: A Machine Learning Approach for Validating Computation-Ready Metal–Organic Frameworks." **Journal of the American Chemical Society**, 2025. DOI: 10.1021/jacs.5c10126*             
+> "CoRE MOF DB: A curated experimental metal-organic framework database with machine-learned properties for integrated material-process screening." **Matter**, 2025. DOI: 10.1016/j.matt.2025.102140*                        
+> "MOFClassifier: A Machine Learning Approach for Validating Computation-Ready Metal–Organic Frameworks." **Journal of the American Chemical Society**, 2025. DOI: 10.1021/jacs.5c10126*             
 
 ---
 
 ## ✉️ Contact & Feedback
 
-* **Laboratory:** Chung Research Group, Pusan National University.
 * **Support:** Issues can be reported via the [Contact Page](https://mof-db.pusan.ac.kr/contact) or emailed to `sxmzhaogb@gmail.com`.
 
