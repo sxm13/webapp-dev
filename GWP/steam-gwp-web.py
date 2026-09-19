@@ -90,7 +90,7 @@ st.title('Global Warming Potential and Atmospheric Lifetime Prediction')
 st.markdown(" :alien: **GWP predicted By Random Forest & AL predicted By Multi-layer Perceptron**")                
 st.markdown(" :tired_face: If IP and HOMO-LUMO Gap are inputted, then the prediction will be more accurate")                   
 st.markdown("Contact: sxmzhaogb@gmail.com")
-st.markdown(' :heart_eyes: <span style="color:grey;">Cite as: G. Zhao, H. Kim, C. Ynag, Y. G. Chung. Leveraging Machine Learning to Predict the Atmospheric Lifetime and the Global Warming Potential (GWP) of SF6 Replacement Gases. DOI: 10.1021/acs.jpca.3c07339 </span>', unsafe_allow_html=True)
+st.markdown(' :heart_eyes: <span style="color:grey;">Cite as: Leveraging Machine Learning to Predict the Atmospheric Lifetime and the Global Warming Potential (GWP) of SF6 Replacement Gases. DOI: 10.1021/acs.jpca.3c07339 </span>', unsafe_allow_html=True)
 # model_type = st.selectbox('Choose a model type:', ['GBR', 'MLP'])
 smiles = st.text_input('Enter the SMILES representation:','C')
 blk=makeblock(smiles)
@@ -120,6 +120,3 @@ if st.button('Predict'):
         st.write(f'Predicted Atmospheric Lifetime: {lifetime:.4f} year.')
     elif not smiles:
         st.error('Please enter the SMILES representation.')
-
-
-st.markdown('<span style="color:grey;">Site developed and maintained by Guobin Zhao, Haewon Kim and Prof. Yongchul G. Chung (Pusan National University)</span>', unsafe_allow_html=True)
